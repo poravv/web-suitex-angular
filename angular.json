@@ -32,7 +32,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/custom.js",
+              "src/assets/js/tiny-slider.js",
+              "src/assets/js/bootstrap.bundle.min.js"
+						]
           },
           "configurations": {
             "production": {
@@ -100,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fc299f30-0925-4cb0-9226-a3c1ac75e025"
   }
 }
