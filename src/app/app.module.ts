@@ -18,6 +18,12 @@ import { DestacadoComponent } from './components/destacado/destacado.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProdDestacadoComponent } from './components/prod-destacado/prod-destacado.component';
+import { PqelegirnosComponent } from './components/pqelegirnos/pqelegirnos.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
+import { PrivacidadComponent } from './components/privacidad/privacidad.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BasescondicionesComponent } from './components/basescondiciones/basescondiciones.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +41,18 @@ import { ProdDestacadoComponent } from './components/prod-destacado/prod-destaca
     AboutComponent,
     FooterComponent,
     DestacadoComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    PqelegirnosComponent,
+    BlogsComponent,
+    PrivacidadComponent,
+    BasescondicionesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
