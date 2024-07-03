@@ -24,6 +24,7 @@ import { PrivacidadComponent } from './components/privacidad/privacidad.componen
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BasescondicionesComponent } from './components/basescondiciones/basescondiciones.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { BasescondicionesComponent } from './components/basescondiciones/basesco
     AppRoutingModule,
     NgbModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
