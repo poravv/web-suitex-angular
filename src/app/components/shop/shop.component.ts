@@ -28,10 +28,10 @@ export class ShopComponent {
     { image: "assets/images/suitex/pantaloncarp3.png", name: "Pantalon carpintero", size: 150, href: 'https://wa.me/595993645127', detail: ['-Sarga media', '-Sarga pesada'] },
     { image: "assets/images/suitex/pantaloncarp4.png", name: "Pantalon carpintero", size: 250, href: 'https://wa.me/595993645127', detail: ['-Sarga media', '-Sarga pesada'] },
 
-    { image: "assets/images/suitex/campind4.png", name: "Campera", size: 250, href: 'https://wa.me/595993645127', detail: ['-Nailon Impermeable', '-Nailon Impermeable fino sin ruido'] },
-    { image: "assets/images/suitex/campind1.png", name: "Campera", size: 400, href: 'https://wa.me/595993645127', detail: ['-Nailon Impermeable', '-Nailon Impermeable fino sin ruido'] },
-    { image: "assets/images/suitex/campind2.png", name: "Campera", size: 300, href: 'https://wa.me/595993645127', detail: ['-Nailon Impermeable', '-Nailon Impermeable fino sin ruido'] },
-    { image: "assets/images/suitex/campind3.png", name: "Campera", size: 250, href: 'https://wa.me/595993645127', detail: ['-Nailon Impermeable', '-Nailon Impermeable fino sin ruido'] },
+    { image: "assets/images/suitex/campind4.png", name: "Campera", size: 250, href: 'https://wa.me/595993645127', detail: ['-Nylon Impermeable', '-Nylon Impermeable fino sin ruido'] },
+    { image: "assets/images/suitex/campind1.png", name: "Campera", size: 400, href: 'https://wa.me/595993645127', detail: ['-Nylon Impermeable', '-Nylon Impermeable fino sin ruido'] },
+    { image: "assets/images/suitex/campind2.png", name: "Campera", size: 300, href: 'https://wa.me/595993645127', detail: ['-Nylon Impermeable', '-Nylon Impermeable fino sin ruido'] },
+    { image: "assets/images/suitex/campind3.png", name: "Campera", size: 250, href: 'https://wa.me/595993645127', detail: ['-Nylon Impermeable', '-Nylon Impermeable fino sin ruido'] },
 
   ];
 
